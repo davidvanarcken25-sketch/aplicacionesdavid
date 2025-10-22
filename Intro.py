@@ -10,7 +10,7 @@ st.markdown(
     <style>
         /* Fondo general */
         body, .stApp {
-            background-color: #1a1a1a;
+            background-color: #801100;
             color: #f2f2f2;
             font-family: 'Poppins', sans-serif;
         }
