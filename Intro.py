@@ -70,7 +70,7 @@ apps = [
     (" Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "17.jpg", "https://reconocimientogestos-1.streamlit.app/"),
     (" Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "18.jpg", "https://chatpdfejercicio.streamlit.app/"),
     (" Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "19.jpg", "https://visionappejercicio.streamlit.app/"),
-    (" Interfaz Táctil", "Tablero interactivo personalizado.", "22.jpg", None),
+    (" Interfaz Táctil", "Tablero interactivo personalizado.", "22.jpg","https://drawrecog1.streamlit.app/"),
     (" Generador de Historias", "Crea historias con inteligencia artificial.", "20.jpg", "https://generador-de-historias.streamlit.app/"),
     (" Control MQTT (Botones)", "Control de dispositivos mediante MQTT y botones.", "23.jpg", "https://sendcmqtt2.streamlit.app/"),
     (" Control MQTT (Voz)", "Control de dispositivos mediante comandos de voz.", "16.jpg", "https://ctrlvoice3.streamlit.app/")
