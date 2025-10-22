@@ -59,21 +59,21 @@ st.divider()
 
 # --- 🧠 Lista de aplicaciones con imágenes del 1 al 15 ---
 apps = [
-    (" Introducción", "Presentación general del portafolio.", "21.jpg", "https://introduccion.streamlit.app/"),
-    (" Introducción 2", "Segunda práctica introductoria.", "10.jpg", "https://claseintroduccion2j.streamlit.app/"),
-    (" Voz a Texto", "Convierte voz en texto (traductor).", "11.jpg", "https://traductorinterfaces-l.streamlit.app/"),
-    (" OCR", "Reconocimiento óptico de caracteres (leer texto en imágenes).", "12.jpg", "https://ocr-audio-kj.streamlit.app/"),
-    (" Análisis de Sentimiento", "Detecta emociones en texto.", "13.jpg", "https://bxevt8gne5jp7whkvp9cw8.streamlit.app/"),
-    (" Análisis de Texto (Inglés)", "Identifica temas y estructura gramatical.", "14.jpg", "https://tdfesp1-aulmkzfpydhreyfy5vgtua.streamlit.app/"),
-    (" Análisis de Texto (Español)", "Procesamiento de lenguaje natural.", "15.jpg", "https://x7uhxksclxqrup8a4fgnhe.streamlit.app/"),
-    (" Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "16.jpg", "https://k4zkftbsu2yfj8vpqzvbkh.streamlit.app/"),
-    (" Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "17.jpg", "https://reconocimientogestos-1.streamlit.app/"),
-    (" Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "18.jpg", "https://chatpdfejercicio.streamlit.app/"),
-    (" Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "19.jpg", "https://visionappejercicio.streamlit.app/"),
-    (" Interfaz Táctil", "Tablero interactivo personalizado.", "22.jpg","https://drawrecog1.streamlit.app/"),
-    (" Generador de Historias", "Crea historias con inteligencia artificial.", "20.jpg", "https://generador-de-historias.streamlit.app/"),
-    (" Control MQTT (Botones)", "Control de dispositivos mediante MQTT y botones.", "23.jpg", "https://sendcmqtt2.streamlit.app/"),
-    (" Control MQTT (Voz)", "Control de dispositivos mediante comandos de voz.", "16.jpg", "https://ctrlvoice3.streamlit.app/")
+    (" Introducción", "Presentación general del portafolio.", "1.jpg", "https://introduccion.streamlit.app/"),
+    (" Introducción 2", "Segunda práctica introductoria.", "2.jpg", "https://claseintroduccion2j.streamlit.app/"),
+    (" Voz a Texto", "Convierte voz en texto (traductor).", "3.jpg", "https://traductorinterfaces-l.streamlit.app/"),
+    (" OCR", "Reconocimiento óptico de caracteres (leer texto en imágenes).", "4.jpg", "https://ocr-audio-kj.streamlit.app/"),
+    (" Análisis de Sentimiento", "Detecta emociones en texto.", "5.jpg", "https://bxevt8gne5jp7whkvp9cw8.streamlit.app/"),
+    (" Análisis de Texto (Inglés)", "Identifica temas y estructura gramatical.", "6.jpg", "https://tdfesp1-aulmkzfpydhreyfy5vgtua.streamlit.app/"),
+    (" Análisis de Texto (Español)", "Procesamiento de lenguaje natural.", "7.jpg", "https://x7uhxksclxqrup8a4fgnhe.streamlit.app/"),
+    (" Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "8.jpg", "https://k4zkftbsu2yfj8vpqzvbkh.streamlit.app/"),
+    (" Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "9.jpg", "https://reconocimientogestos-1.streamlit.app/"),
+    (" Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "10.jpg", "https://chatpdfejercicio.streamlit.app/"),
+    (" Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "11.jpg", "https://visionappejercicio.streamlit.app/"),
+    (" Interfaz Táctil", "Tablero interactivo personalizado.", "12.jpg","https://drawrecog1.streamlit.app/"),
+    (" Generador de Historias", "Crea historias con inteligencia artificial.", "13.jpg", "https://generador-de-historias.streamlit.app/"),
+    (" Control MQTT (Botones)", "Control de dispositivos mediante MQTT y botones.", "14.jpg", "https://sendcmqtt2.streamlit.app/"),
+    (" Control MQTT (Voz)", "Control de dispositivos mediante comandos de voz.", "15.jpg", "https://ctrlvoice3.streamlit.app/")
 ]
 
 # --- 🎨 Diseño con columnas ---
