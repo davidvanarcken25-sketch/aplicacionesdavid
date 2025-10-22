@@ -1,87 +1,64 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de Inteligencia Artificial.")
+
+st.set_page_config(page_title="Portafolio Apps IA", page_icon="🤖", layout="wide")
+
+st.title("🤖 Portafolio de Aplicaciones con Inteligencia Artificial")
+
+st.markdown("""
+En este portafolio encontrarás diferentes **aplicaciones desarrolladas con IA**, 
+desde conversión de voz y texto hasta análisis de imágenes, sentimientos y modelos entrenados.
+""")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
-  parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
-  )
-  st.write(parrafo)
+    st.image("OIG5.jpg", use_column_width=True)
+    st.subheader("Sobre el proyecto")
+    st.write("""
+    Este portafolio recopila proyectos creados con **Python 3.10** y herramientas de 
+    **Inteligencia Artificial** aplicadas en entornos reales.
+    """)
+    st.markdown("📘 [Más recursos y ejercicios](https://sites.google.com/view/aplicacionesdeia/inicio)")
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
-col1, col2, col3 = st.columns(3)
+# --- Secciones del Portafolio ---
+st.divider()
+st.header("🧩 Aplicaciones del Portafolio")
 
-with col1:
- 
- st.subheader("Conversión de texto a voz")
- image = Image.open('txt_to_audio2.png')
- st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+apps = [
+    ("📘 1. Introducción", "Presentación general del proyecto."),
+    ("🔊 2. Interfaz Texto a Voz", "Convierte texto en audio narrado (cuento).", "txt_to_audio2.png", "https://imultimod.streamlit.app/"),
+    ("🎙️ 3. Interfaz Voz a Texto", "Convierte voz en texto (traductor).", "OIG8.jpg", "https://traductor-ab0sp9f6fi.streamlit.app/"),
+    ("📄 4. Interfaz OCR", "Reconocimiento óptico de caracteres (lectura de texto en imágenes).", "txt_to_audio.png", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
+    ("💬 5. Análisis de Sentimiento", "Detecta emociones en texto."),
+    ("📝 6. Análisis de Texto (Inglés)", "Identifica temas y gramática."),
+    ("📝 7. Análisis de Texto (Español)", "Procesamiento de lenguaje natural."),
+    ("🧠 8. Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "OIG4.jpg", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
+    ("🤹 9. Reconocimiento de Gestos", "Usa visión computacional para interpretar movimientos."),
+    ("💬 10. Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "Chat_pdf.png", "https://chatpdf-cc.streamlit.app/"),
+    ("🖼️ 11. Interpretación de Imagen", "Análisis avanzado con modelos visuales.", "OIG4.jpg", "https://vision2-gpt4o.streamlit.app/"),
+    ("🖐️ 12. Interfaz Táctil", "Tablero interactivo personalizado."),
+    ("✏️ 13. Reconocimiento de Bocetos", "Reconoce y clasifica dibujos hechos a mano.")
+]
 
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+# --- Mostrar las apps en diseño de columnas ---
+for i in range(0, len(apps), 3):
+    cols = st.columns(3)
+    for j, col in enumerate(cols):
+        if i + j < len(apps):
+            app = apps[i + j]
+            title = app[0]
+            desc = app[1]
+            image = app[2] if len(app) > 2 else None
+            link = app[3] if len(app) > 3 else None
 
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+            with col:
+                st.markdown(f"### {title}")
+                if image:
+                    st.image(image, use_column_width=True)
+                st.write(desc)
+                if link:
+                    st.markdown(f"[🌐 Ir a la aplicación]({link})")
+                st.divider()
 
-with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
- st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductor-ab0sp9f6fi.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
-
- st.subheader("Análisis de Datos")
- image = Image.open('data_analisis.png')
- st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://asistpy-csv.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
-
- st.subheader("Trasnscriptor Audio y Video")
- image = Image.open('OIG3.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
-
-
-with col3: 
- st.subheader("Generación en Contexto")
- image = Image.open('Chat_pdf.png')
- st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
-
- st.subheader("Análisis de Imagen")
- image = Image.open('OIG4.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
- 
- st.subheader("Sistema Ciberfísico")
- image = Image.open('OIG6.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+st.success("✨ Fin del portafolio ✨")
 
 
