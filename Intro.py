@@ -59,7 +59,7 @@ st.divider()
 
 # --- 🧠 Lista de aplicaciones con imágenes del 1 al 15 ---
 apps = [
-    (" Introducción", "Presentación general del portafolio.", "21.jpg", "https://introduccion.streamlit.app/"),
+    (" Introducción", "Presentación general del portafolio.", "1.jpg", "https://introduccion.streamlit.app/"),
     (" Introducción 2", "Segunda práctica introductoria.", "10.jpg", "https://claseintroduccion2j.streamlit.app/"),
     (" Voz a Texto", "Convierte voz en texto (traductor).", "11.jpg", "https://traductorinterfaces-l.streamlit.app/"),
     (" OCR", "Reconocimiento óptico de caracteres (leer texto en imágenes).", "12.jpg", "https://ocr-audio-kj.streamlit.app/"),
