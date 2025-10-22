@@ -8,10 +8,10 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #330621; /* Fondo naranjita claro */
+        background-color: #330621; 
     }
     .stButton>button {
-        background-color: #a06cd5;
+        background-color: #F72866;
         color: white;
         border-radius: 12px;
         border: none;
