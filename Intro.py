@@ -56,7 +56,7 @@ st.divider()
 
 # --- Lista de aplicaciones con imágenes del 1 al 10 ---
 apps = [
-    (" 1. Introducción", "Presentación general del portafolio.", "1.jpg", None),
+    (" 1. Introducción", "Presentación general del portafolio.", "21.jpg", None),
     (" 2. Texto a Voz", "Convierte texto en audio narrado (cuento).", "10.jpg", "https://imultimod.streamlit.app/"),
     (" 3. Voz a Texto", "Convierte voz en texto (traductor).", "11.jpg", "https://traductor-ab0sp9f6fi.streamlit.app/"),
     (" 4. OCR", "Reconocimiento óptico de caracteres (leer texto en imágenes).", "12.jpg", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
@@ -67,7 +67,7 @@ apps = [
     (" 9. Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "17.jpg", None),
     (" 10. Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "18.jpg", "https://chatpdf-cc.streamlit.app/"),
     (" 11. Interpretación de Imagen", "Análisis avanzado de imágenes con IA.",  "19.jpg", "https://vision2-gpt4o.streamlit.app/"),
-    (" 12. Interfaz Táctil", "Tablero interactivo personalizado.", "19.jpg", None),
+    (" 12. Interfaz Táctil", "Tablero interactivo personalizado.", "22.jpg", None),
     (" 13. Reconocimiento de Bocetos", "Identifica dibujos hechos a mano.", "20.jpg", None)
 ]
 
