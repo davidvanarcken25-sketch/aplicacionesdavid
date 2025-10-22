@@ -59,19 +59,19 @@ st.divider()
 
 # --- 🧠 Lista de aplicaciones con imágenes del 1 al 10 ---
 apps = [
-    ("1️⃣ Introducción", "Presentación general del portafolio.", "21.jpg", None),
-    ("2️⃣ Texto a Voz", "Convierte texto en audio narrado (cuento).", "10.jpg", "https://imultimod.streamlit.app/"),
-    ("3️⃣ Voz a Texto", "Convierte voz en texto (traductor).", "11.jpg", "https://traductor-ab0sp9f6fi.streamlit.app/"),
-    ("4️⃣ OCR", "Reconocimiento óptico de caracteres (leer texto en imágenes).", "12.jpg", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
-    ("5️⃣ Análisis de Sentimiento", "Detecta emociones en texto.", "13.jpg", None),
-    ("6️⃣ Análisis de Texto (Inglés)", "Identifica temas y estructura gramatical.", "14.jpg", None),
-    ("7️⃣ Análisis de Texto (Español)", "Procesamiento de lenguaje natural.", "15.jpg", None),
-    ("8️⃣ Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "16.jpg", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
-    ("9️⃣ Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "17.jpg", None),
-    ("🔟 Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "18.jpg", "https://chatpdf-cc.streamlit.app/"),
-    ("11️⃣ Interpretación de Imagen", "Análisis avanzado de imágenes con IA.",  "19.jpg", "https://vision2-gpt4o.streamlit.app/"),
-    ("12️⃣ Interfaz Táctil", "Tablero interactivo personalizado.", "22.jpg", None),
-    ("13️⃣ Reconocimiento de Bocetos", "Identifica dibujos hechos a mano.", "20.jpg", None)
+    ("Introducción", "Presentación general del portafolio.", "21.jpg", None),
+    (" Texto a Voz", "Convierte texto en audio narrado (cuento).", "10.jpg", "https://imultimod.streamlit.app/"),
+    (" Voz a Texto", "Convierte voz en texto (traductor).", "11.jpg", "https://traductor-ab0sp9f6fi.streamlit.app/"),
+    (" OCR", "Reconocimiento óptico de caracteres (leer texto en imágenes).", "12.jpg", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
+    (" Análisis de Sentimiento", "Detecta emociones en texto.", "13.jpg", None),
+    (" Análisis de Texto (Inglés)", "Identifica temas y estructura gramatical.", "14.jpg", None),
+    (" Análisis de Texto (Español)", "Procesamiento de lenguaje natural.", "15.jpg", None),
+    (" Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "16.jpg", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
+    (" Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "17.jpg", None),
+    (" Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "18.jpg", "https://chatpdf-cc.streamlit.app/"),
+    (" Interpretación de Imagen", "Análisis avanzado de imágenes con IA.",  "19.jpg", "https://vision2-gpt4o.streamlit.app/"),
+    (" Interfaz Táctil", "Tablero interactivo personalizado.", "22.jpg", None),
+    (" Reconocimiento de Bocetos", "Identifica dibujos hechos a mano.", "20.jpg", None)
 ]
 
 # --- 🎨 Diseño con columnas ---
