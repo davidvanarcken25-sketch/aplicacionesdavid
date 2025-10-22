@@ -46,7 +46,7 @@ st.markdown(
 
 # --- 🚗 Título principal ---
 st.markdown('<div class="title">🚗 Portafolio de Aplicaciones con Inteligencia Artificial</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">David Mendoza Van-Arcken🚗</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">David Mendoza Van-Arcken 🚗</div>', unsafe_allow_html=True)
 
 # --- 📚 Sidebar ---
 with st.sidebar:
@@ -92,6 +92,11 @@ for i in range(0, len(apps), 3):
                         unsafe_allow_html=True
                     )
                 st.divider()
+
+# --- ❄️ Animación final ---
+st.snow()
+st.success("❄️ ¡Fin del portafolio! 🚗")
+
 
 # --- 🎉 Final ---
 st.balloons()
