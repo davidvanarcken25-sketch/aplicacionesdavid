@@ -57,23 +57,21 @@ with st.sidebar:
 
 st.divider()
 
-# --- Lista de aplicaciones ---
+# --- Lista de aplicaciones con imágenes del 1 al 10 ---
 apps = [
-    # 👇 Aquí añadimos tu imagen 1.jpg
     ("📘 1. Introducción", "Presentación general del portafolio.", "1.jpg", None),
-
-    ("🔊 2. Texto a Voz", "Convierte texto en audio narrado (cuento).", "https://placekitten.com/321/221", "https://imultimod.streamlit.app/"),
-    ("🎙️ 3. Voz a Texto", "Convierte voz en texto (traductor).", "https://placekitten.com/322/222", "https://traductor-ab0sp9f6fi.streamlit.app/"),
-    ("📄 4. OCR", "Reconocimiento óptico de caracteres (leer texto en imágenes).", "https://placekitten.com/323/223", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
-    ("💬 5. Análisis de Sentimiento", "Detecta emociones en texto.", "https://placekitten.com/324/224", None),
-    ("📝 6. Análisis de Texto (Inglés)", "Identifica temas y estructura gramatical.", "https://placekitten.com/325/225", None),
-    ("📝 7. Análisis de Texto (Español)", "Procesamiento de lenguaje natural.", "https://placekitten.com/326/226", None),
-    ("🧠 8. Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "https://placekitten.com/327/227", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
-    ("🤹 9. Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "https://placekitten.com/328/228", None),
-    ("💬 10. Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "https://placekitten.com/329/229", "https://chatpdf-cc.streamlit.app/"),
-    ("🖼️ 11. Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "https://placekitten.com/330/230", "https://vision2-gpt4o.streamlit.app/"),
-    ("🖐️ 12. Interfaz Táctil", "Tablero interactivo personalizado.", "https://placekitten.com/331/231", None),
-    ("✏️ 13. Reconocimiento de Bocetos", "Identifica dibujos hechos a mano.", "https://placekitten.com/332/232", None)
+    ("🔊 2. Texto a Voz", "Convierte texto en audio narrado (cuento).", "10.jpg", "https://imultimod.streamlit.app/"),
+    ("🎙️ 3. Voz a Texto", "Convierte voz en texto (traductor).", "11.jpg", "https://traductor-ab0sp9f6fi.streamlit.app/"),
+    ("📄 4. OCR", "Reconocimiento óptico de caracteres (leer texto en imágenes).", "12.jpg", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
+    ("💬 5. Análisis de Sentimiento", "Detecta emociones en texto.", "13.jpg", None),
+    ("📝 6. Análisis de Texto (Inglés)", "Identifica temas y estructura gramatical.", "14.jpg", None),
+    ("📝 7. Análisis de Texto (Español)", "Procesamiento de lenguaje natural.", "15.jpg", None),
+    ("🧠 8. Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "16.jpg", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
+    ("🤹 9. Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "17.jpg", None),
+    ("💬 10. Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "18.jpg", "https://chatpdf-cc.streamlit.app/"),
+    ("🖼️ 11. Interpretación de Imagen", "Análisis avanzado de imágenes con IA.",  "19.jpg, "https://vision2-gpt4o.streamlit.app/"),
+    ("🖐️ 12. Interfaz Táctil", "Tablero interactivo personalizado.",  "19.jpg", None),
+    ("✏️ 13. Reconocimiento de Bocetos", "Identifica dibujos hechos a mano.", "20.jpg", None)
 ]
 
 # --- Diseño con columnas ---
