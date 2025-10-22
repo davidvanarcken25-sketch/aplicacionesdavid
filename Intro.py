@@ -12,7 +12,7 @@ st.markdown(
     }
     .stButton>button {
         background-color: #a06cd5;
-        color: white;
+        color: pink;
         border-radius: 12px;
         border: none;
         font-size: 16px;
@@ -41,7 +41,7 @@ st.markdown(
 )
 
 st.markdown('<div class="title">🐱 Portafolio de Aplicaciones con Inteligencia Artificial</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Una colección de proyectos IA acompañados de adorables gatos 💜</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Angie Estrella Espinosa Valdez💜</div>', unsafe_allow_html=True)
 
 # --- Sidebar ---
 with st.sidebar:
@@ -59,19 +59,19 @@ st.divider()
 
 # --- Lista de aplicaciones ---
 apps = [
-    ("📘 1. Introducción", "Presentación general del portafolio.", "https://placekitten.com/320/220", None),
-    ("🔊 2. Texto a Voz", "Convierte texto en audio narrado (cuento).", "https://placekitten.com/321/221", "https://imultimod.streamlit.app/"),
-    ("🎙️ 3. Voz a Texto", "Convierte voz en texto (traductor).", "https://placekitten.com/322/222", "https://traductor-ab0sp9f6fi.streamlit.app/"),
-    ("📄 4. OCR", "Reconocimiento óptico de caracteres (leer texto en imágenes).", "https://placekitten.com/323/223", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
-    ("💬 5. Análisis de Sentimiento", "Detecta emociones en texto.", "https://placekitten.com/324/224", None),
-    ("📝 6. Análisis de Texto (Inglés)", "Identifica temas y estructura gramatical.", "https://placekitten.com/325/225", None),
-    ("📝 7. Análisis de Texto (Español)", "Procesamiento de lenguaje natural.", "https://placekitten.com/326/226", None),
-    ("🧠 8. Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "https://placekitten.com/327/227", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
-    ("🤹 9. Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "https://placekitten.com/328/228", None),
-    ("💬 10. Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "https://placekitten.com/329/229", "https://chatpdf-cc.streamlit.app/"),
-    ("🖼️ 11. Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "https://placekitten.com/330/230", "https://vision2-gpt4o.streamlit.app/"),
-    ("🖐️ 12. Interfaz Táctil", "Tablero interactivo personalizado.", "https://placekitten.com/331/231", None),
-    ("✏️ 13. Reconocimiento de Bocetos", "Identifica dibujos hechos a mano.", "https://placekitten.com/332/232", None)
+    (" 1. Introducción", "Presentación general del portafolio.", "https://placekitten.com/320/220", None),
+    (" 2. Texto a Voz", "Convierte texto en audio narrado (cuento).", "https://placekitten.com/321/221", "https://imultimod.streamlit.app/"),
+    (" 3. Voz a Texto", "Convierte voz en texto (traductor).", "https://placekitten.com/322/222", "https://traductor-ab0sp9f6fi.streamlit.app/"),
+    (" 4. OCR", "Reconocimiento óptico de caracteres (leer texto en imágenes).", "https://placekitten.com/323/223", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
+    (" 5. Análisis de Sentimiento", "Detecta emociones en texto.", "https://placekitten.com/324/224", None),
+    (" 6. Análisis de Texto (Inglés)", "Identifica temas y estructura gramatical.", "https://placekitten.com/325/225", None),
+    (" 7. Análisis de Texto (Español)", "Procesamiento de lenguaje natural.", "https://placekitten.com/326/226", None),
+    (" 8. Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "https://placekitten.com/327/227", "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"),
+    (" 9. Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "https://placekitten.com/328/228", None),
+    (" 10. Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "https://placekitten.com/329/229", "https://chatpdf-cc.streamlit.app/"),
+    (" 11. Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "https://placekitten.com/330/230", "https://vision2-gpt4o.streamlit.app/"),
+    (" 12. Interfaz Táctil", "Tablero interactivo personalizado.", "https://placekitten.com/331/231", None),
+    (" 13. Reconocimiento de Bocetos", "Identifica dibujos hechos a mano.", "https://placekitten.com/332/232", None)
 ]
 
 # --- Diseño con columnas ---
@@ -89,6 +89,6 @@ for i in range(0, len(apps), 3):
                 st.divider()
 
 st.balloons()
-st.success("✨ ¡Fin del portafolio, miauu! 🐾")
+st.success("¡Fin del portafolio🐾")
 
 
