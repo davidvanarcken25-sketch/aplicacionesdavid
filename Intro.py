@@ -98,7 +98,4 @@ st.snow()
 st.success("❄️ ¡Fin del portafolio! 🚗")
 
 
-# --- 🎉 Final ---
-st.balloons()
-st.success("¡Fin del portafolio! 🚗")
 
