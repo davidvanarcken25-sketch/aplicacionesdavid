@@ -8,7 +8,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #330621; 
+        background-color: #FFE5B4; /* 🌸 Naranjita claro */
     }
     .stButton>button {
         background-color: #F72866;
@@ -20,7 +20,7 @@ st.markdown(
         transition: 0.3s;
     }
     .stButton>button:hover {
-        background-color: #F72866;
+        background-color: #F9518C;
         color: #fff;
         transform: scale(1.05);
     }
@@ -33,7 +33,7 @@ st.markdown(
     .subtitle {
         text-align: center;
         font-size: 18px;
-        color: #4b4b4b;
+        color: white; /* 🌼 Ahora blanco */
     }
     .block-container {
         padding-top: 2rem;
@@ -81,15 +81,17 @@ for i in range(0, len(apps), 3):
         if i + j < len(apps):
             titulo, desc, img_url, link = apps[i + j]
             with col:
-                st.image(img_url, use_column_width=True)
+                st.image(img_url, use_container_width=True)
                 st.markdown(f"### {titulo}")
                 st.write(desc)
                 if link:
-                    st.markdown(f'<a href="{link}" target="_blank"><button class="css-1q8dd3e edgvbvh1">💜 Ir a la aplicación</button></a>', unsafe_allow_html=True)
+                    st.markdown(
+                        f'<a href="{link}" target="_blank"><button class="css-1q8dd3e edgvbvh1">💜 Ir a la aplicación</button></a>',
+                        unsafe_allow_html=True
+                    )
                 st.divider()
 
 # --- 🎉 Final ---
 st.balloons()
 st.success("¡Fin del portafolio! 🌟")
-
 
