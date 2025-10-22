@@ -41,19 +41,17 @@ st.markdown(
 )
 
 st.markdown('<div class="title">🐱 Portafolio de Aplicaciones con Inteligencia Artificial</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Una colección de proyectos IA acompañados de adorables gatos 💜</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Angie Estrella Espinosa Valdez💜</div>', unsafe_allow_html=True)
 
 # --- Sidebar ---
 with st.sidebar:
     st.image("https://placekitten.com/300/200", use_column_width=True)
-    st.subheader("Sobre el proyecto 🧠")
+    st.subheader("Portafolio")
     st.write("""
-    Este portafolio fue desarrollado en **Python 3.10** 
-    e incluye ejemplos de aplicaciones con **Inteligencia Artificial**, 
-    desde análisis de texto hasta reconocimiento de imágenes.
+    Portafolio de los ejercicios desarrollados en clase.
     """)
     st.markdown("📘 [Más recursos y ejercicios](https://sites.google.com/view/aplicacionesdeia/inicio)")
-    st.image("https://placekitten.com/250/180", use_column_width=True)
+
 
 st.divider()
 
