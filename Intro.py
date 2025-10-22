@@ -12,7 +12,7 @@ st.markdown(
     }
     .stButton>button {
         background-color: #a06cd5;
-        color: pink;
+        color: white;
         border-radius: 12px;
         border: none;
         font-size: 16px;
