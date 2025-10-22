@@ -8,7 +8,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #FFE5B4; /* 🌸 Naranjita claro */
+        background-color: #330621; 
     }
     .stButton>button {
         background-color: #F72866;
