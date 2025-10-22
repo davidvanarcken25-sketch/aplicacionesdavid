@@ -20,7 +20,7 @@ st.markdown(
         transition: 0.3s;
     }
     .stButton>button:hover {
-        background-color: #7b2cbf;
+        background-color: #F72866;
         color: #fff;
         transform: scale(1.05);
     }
