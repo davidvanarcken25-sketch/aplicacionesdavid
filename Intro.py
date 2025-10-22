@@ -1,9 +1,9 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Portafolio Apps IA", page_icon="🐱", layout="wide")
+st.set_page_config(page_title="Portafolio Apps IA", page_icon="🚗", layout="wide")
 
-# --- 🌼 Estilos personalizados ---
+# --- 🚗 Estilos personalizados ---
 st.markdown(
     """
     <style>
@@ -44,20 +44,20 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# --- 🐱 Título principal ---
-st.markdown('<div class="title">🐱 Portafolio de Aplicaciones con Inteligencia Artificial</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Angie Estrella Espinosa Valdez 💜</div>', unsafe_allow_html=True)
+# --- 🚗 Título principal ---
+st.markdown('<div class="title">🚗 Portafolio de Aplicaciones con Inteligencia Artificial</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">David Mendoza Van-Arcken🚗</div>', unsafe_allow_html=True)
 
 # --- 📚 Sidebar ---
 with st.sidebar:
-    st.subheader("📖 Portafolio")
+    st.subheader("🚗 Portafolio")
     st.write("""
     Portafolio de los ejercicios desarrollados en clase.
     """)
 
 st.divider()
 
-# --- 🧠 Lista de aplicaciones con imágenes del 1 al 15 ---
+# --- 🧠 Lista de aplicaciones ---
 apps = [
     (" Introducción", "Presentación general del portafolio.", "1.jpg", "https://introduccion.streamlit.app/"),
     (" Introducción 2", "Segunda práctica introductoria.", "2.jpg", "https://claseintroduccion2j.streamlit.app/"),
@@ -70,7 +70,7 @@ apps = [
     (" Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "9.jpg", "https://reconocimientogestos-1.streamlit.app/"),
     (" Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "10.jpg", "https://chatpdfejercicio.streamlit.app/"),
     (" Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "11.jpg", "https://visionappejercicio.streamlit.app/"),
-    (" Interfaz Táctil", "Tablero interactivo personalizado.", "12.jpg","https://drawrecog1.streamlit.app/"),
+    (" Interfaz Táctil", "Tablero interactivo personalizado.", "12.jpg", "https://drawrecog1.streamlit.app/"),
     (" Generador de Historias", "Crea historias con inteligencia artificial.", "13.jpg", "https://generador-de-historias.streamlit.app/"),
     (" Control MQTT (Botones)", "Control de dispositivos mediante MQTT y botones.", "14.jpg", "https://sendcmqtt2.streamlit.app/"),
     (" Control MQTT (Voz)", "Control de dispositivos mediante comandos de voz.", "15.jpg", "https://ctrlvoice3.streamlit.app/")
@@ -84,15 +84,16 @@ for i in range(0, len(apps), 3):
             titulo, desc, img_url, link = apps[i + j]
             with col:
                 st.image(img_url, use_container_width=True)
-                st.markdown(f"### {titulo}")
+                st.markdown(f"### 🚗 {titulo}")
                 st.write(desc)
                 if link:
                     st.markdown(
-                        f'<a href="{link}" target="_blank"><button class="css-1q8dd3e edgvbvh1">💜 Ir a la aplicación</button></a>',
+                        f'<a href="{link}" target="_blank"><button class="css-1q8dd3e edgvbvh1">🚗 Ir a la aplicación</button></a>',
                         unsafe_allow_html=True
                     )
                 st.divider()
 
 # --- 🎉 Final ---
 st.balloons()
-st.success("¡Fin del portafolio! 🌟")
+st.success("¡Fin del portafolio! 🚗")
+
