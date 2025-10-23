@@ -72,7 +72,7 @@ apps = [
     (" Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "11.jpg", "https://chatpdfdavid-ia6pxqx8cpt68mlroiflkt.streamlit.app/"),
     (" Interfaz Táctil", "Tablero interactivo personalizado.", "12.jpg", "https://drawrecog1.streamlit.app/"),
     (" Generador de Historias", "Crea historias con inteligencia artificial.", "13.jpg", "https://generador-de-historias.streamlit.app/"),
-    (" Control MQTT (Botones)", "Control de dispositivos mediante MQTT y botones.", "14.jpg", "https://sendcmqtt2.streamlit.app/"),
+    (" Control MQTT (Botones)", "Control de dispositivos mediante MQTT y botones.", "14.jpg", "https://sendcmqttdavid-xxidmqfbbx9tgzh4mmwkro.streamlit.app/"),
     (" Control MQTT (Voz)", "Control de dispositivos mediante comandos de voz.", "15.jpg", "https://ctrlvoice3.streamlit.app/")
 ]
 
