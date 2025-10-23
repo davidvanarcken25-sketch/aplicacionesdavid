@@ -59,7 +59,7 @@ st.divider()
 
 # --- 🧠 Lista de aplicaciones ---
 apps = [
-    (" Introducción", "Presentación general del portafolio.", "1.jpg", "https://introduccion.streamlit.app/"),
+    (" Introducción", "Presentación general del portafolio.", "1.jpg", "https://introdavid.streamlit.app/"),
     (" Introducción 2", "Segunda práctica introductoria.", "2.jpg", "https://ctrlvoicedavid-mqjex5dakxuyoiyzffvjou.streamlit.app/"),
     (" Voz a Texto", "Convierte voz en texto (traductor).", "3.jpg", "http://voztextodavid-3yvgszvpt9my53pts4c6z8.streamlit.app/"),
     (" OCR", "Reconocimiento óptico de caracteres (leer texto en imágenes).", "4.jpg", "https://ocr-audio-kj.streamlit.app/"),
