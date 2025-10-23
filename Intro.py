@@ -69,7 +69,7 @@ apps = [
     (" Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "8.jpg", "https://k4zkftbsu2yfj8vpqzvbkh.streamlit.app/"),
     (" Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "9.jpg", "https://reconocimientogestos-1.streamlit.app/"),
     (" Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "10.jpg", "https://chatpdfejercicio.streamlit.app/"),
-    (" Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "11.jpg", "https://visionappejercicio.streamlit.app/"),
+    (" Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "11.jpg", "https://chatpdfdavid-ia6pxqx8cpt68mlroiflkt.streamlit.app/"),
     (" Interfaz Táctil", "Tablero interactivo personalizado.", "12.jpg", "https://drawrecog1.streamlit.app/"),
     (" Generador de Historias", "Crea historias con inteligencia artificial.", "13.jpg", "https://generador-de-historias.streamlit.app/"),
     (" Control MQTT (Botones)", "Control de dispositivos mediante MQTT y botones.", "14.jpg", "https://sendcmqtt2.streamlit.app/"),
