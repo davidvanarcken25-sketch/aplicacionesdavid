@@ -71,7 +71,7 @@ apps = [
     (" Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "10.jpg", "https://chatpdfdavid-5cr7mzbwbwp2ek8pkc6lhr.streamlit.app/"),
     (" Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "11.jpg", "https://chatpdfdavid-ia6pxqx8cpt68mlroiflkt.streamlit.app/"),
     (" Interfaz Táctil", "Tablero interactivo personalizado.", "12.jpg", "https://handwdavid-lniu7zcxhadffp3fe8zvjp.streamlit.app/"),
-    (" Generador de Historias", "Crea historias con inteligencia artificial.", "13.jpg", "https://generador-de-historias.streamlit.app/"),
+    (" Generador de Historias", "Crea historias con inteligencia artificial.", "13.jpg", "https://histinfdavid-ciuo2r4f2rgfv5pmfjwxcp.streamlit.app/"),
     (" Control MQTT (Botones)", "Control de dispositivos mediante MQTT y botones.", "14.jpg", "https://sendcmqttdavid-xxidmqfbbx9tgzh4mmwkro.streamlit.app/"),
     (" Control MQTT (Voz)", "Control de dispositivos mediante comandos de voz.", "15.jpg", "https://ctrlvoice3.streamlit.app/")
 ]
