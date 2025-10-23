@@ -66,7 +66,7 @@ apps = [
     (" Análisis de Sentimiento", "Detecta emociones en texto.", "5.jpg", "https://fcehsbmnqppudl2tjz7vbn.streamlit.app/"),
     (" Análisis de Texto (Inglés)", "Identifica temas y estructura gramatical.", "6.jpg", "https://i6ph9xpzglhnr7eqhsjgib.streamlit.app/"),
     (" Análisis de Texto (Español)", "Procesamiento de lenguaje natural.", "7.jpg", "https://e7excrm8hqcovkyffhzgta.streamlit.app/"),
-    (" Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "8.jpg", "https://k4zkftbsu2yfj8vpqzvbkh.streamlit.app/"),
+    (" Reconocimiento de Objetos", "Detección de objetos en imágenes (YOLO).", "8.jpg", "https://davidyolo.streamlit.app/"),
     (" Reconocimiento de Gestos", "Interpreta movimientos usando visión computacional.", "9.jpg", "https://reconocimientogestosdavid-hzccwagzvtwkuzbtiug9kk.streamlit.app/"),
     (" Chatbot (Sistema Experto)", "Sistema de conversación LLM.", "10.jpg", "https://chatpdfdavid-5cr7mzbwbwp2ek8pkc6lhr.streamlit.app/"),
     (" Interpretación de Imagen", "Análisis avanzado de imágenes con IA.", "11.jpg", "https://chatpdfdavid-ia6pxqx8cpt68mlroiflkt.streamlit.app/"),
